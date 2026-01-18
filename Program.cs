@@ -1,4 +1,4 @@
-﻿using DZ13._1;
+﻿using Accounts;
 
 Account heikkisAccount = new Account("Heikki's account", 100.00);
 Account heikkisSwissAccount = new Account("Heikki's account in Switzerland", 1000000.00);
