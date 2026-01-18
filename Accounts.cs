@@ -1,11 +1,12 @@
-﻿namespace DZ13._1
+﻿namespace Accounts
+
 {
     public class Account
     {
         public string Name { get; private set; }
         public double Balance { get; private set; }
 
-   КК     public Account(string name, double initialBalance)
+        public Account(string name, double initialBalance)
         {
             if (initialBalance < 0)
             {
